@@ -1,0 +1,31 @@
+{
+  "questlines": [
+    {
+      "name": "Rest API",
+      "completition": 70,
+      "quests": [
+        {
+          "name": "Fetch an API",
+          "diff": "hard",
+          "desc": "Fetch the rest API in JS using an async function."
+        },
+        {
+          "name": "Kill a rabit",
+          "diff": "normal",
+          "desc": "Just kill the fucking rabbit"
+        }
+      ]
+    },
+    {
+      "name": "Bank Log-in",
+      "completition": 30,
+      "quests": [
+        {
+          "name": "Kill yourself",
+          "diff": "easy",
+          "desc": "Just do it."
+        }
+      ]
+    }
+  ]
+}
