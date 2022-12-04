@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Krest</title>
-  <script defer src="bundle59718e0a06af0253b20d.js"></script></head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/go.min.js"></script>
+<script defer src="bundleef64a4c1767df318e5c3.js"></script></head>
+
+<body>
+    <div class="cover hide">
+        <div class="pop-up">
+            <iframe src="https://www.africau.edu/images/default/sample.pdf" width="100%" height="100%"></iframe>
+            <form class="pop-up__form" method="post" name="solution-form" action="/code/submit">
+                <label for="code">Enter your solution:</label>
+                <pre><code name="code_block" id="code" class="language-python" contenteditable="true" ></code></pre>
+            </form>
+            <div class="pop-up__btns">
+                <button class="btn btn__pop-up">Submit</button>
+                <button class="btn__cancel btn">Cancel</button>
+            </div>
+        </div>
+    </div>
     <section class="nav">
-      <div class="nav__upper">
-        <img class="nav__logo" src="/" alt="Logo image" />
-        <nav class="nav__nav">
-          <ul class="nav__list">
-            <li class="nav__item nav__item-active">
-              <a href="#" class="nav__link"
-                ><svg
+        <div class="nav__upper">
+            <span class="nav__logo">Questify</span>
+            <nav class="nav__nav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item-active">
+                        <a href="#" class="nav__link"><svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -32,7 +50,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="#" class="nav__link">
+              <a href="tree.html" class="nav__link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -72,7 +90,7 @@
               >
             </li> -->
             <li class="nav__item">
-              <a href="#" class="nav__link">
+              <a href="account.html" class="nav__link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -94,7 +112,7 @@
           </ul>
         </nav>
       </div>
-      <a href="#" class="nav__logout nav__link">
+      <a href="https://www.google.com/" class="nav__logout nav__link">
         <svg
           class="nav__icon"
           fill="currentColor"
@@ -109,10 +127,10 @@
       </a>
     </section>
     <main class="main">
-      <section class="latest">
-        <h1 class="main__title">Available Quests</h1>
-        <ul class="latest__list">
-          <!-- <li class="latest__quest">
+        <section class="latest">
+            <h1 class="main__title">Available Quests</h1>
+            <ul class="latest__list">
+                <!-- <li class="latest__quest">
             <h3 class="latest__quest__title">
               Save the princess <span class="latest__tag tag__hard">Hard</span>
             </h3>
@@ -146,12 +164,12 @@
             </p>
             <button class="latest__quest__btn">Open</button>
           </li> -->
-        </ul>
-      </section>
-      <section class="active">
-        <h3 class="active__title">Your Questlines:</h3>
-        <ul class="active__list">
-          <!-- <li class="active__item active__active-item">
+            </ul>
+        </section>
+        <section class="active">
+            <h3 class="active__title">Your Questlines:</h3>
+            <ul class="active__list">
+                <!-- <li class="active__item active__active-item">
             <h4 class="active__item__title">Dragon's Lair</h4>
             <div class="progress__container">
               <progress
@@ -173,8 +191,9 @@
             </div>
             <span class="active__progress-num">30%</span>
           </li> -->
-        </ul>
-      </section>
+            </ul>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>

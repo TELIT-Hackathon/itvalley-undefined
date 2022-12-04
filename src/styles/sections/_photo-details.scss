@@ -1,0 +1,26 @@
+@use '../abstracts' as *;
+.photo-details {
+    background-color: rgba($special-color, 0.5);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border-radius: 1rem;
+    padding: 2.4rem;
+    column-gap: 5.6rem;
+    color: #000;
+    align-items: center;
+    width: 70%;
+    img {
+        width: 15rem;
+        border-radius: 50rem;
+        grid-row: 1/-1;
+    }
+    &__name {
+        font-weight: 600;
+        margin-bottom: 1.4rem;
+    }
+    &__desc {
+        font-size: 1.8rem;
+        color: lighten($lighter-background, 10%);
+        font-weight: 400;
+    }
+}

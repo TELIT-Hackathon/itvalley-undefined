@@ -1,31 +1,29 @@
 {
-  "questlines": [
-    {
-      "name": "Rest API",
-      "completition": 70,
-      "quests": [
-        {
-          "name": "Fetch an API",
-          "diff": "hard",
-          "desc": "Fetch the rest API in JS using an async function."
+    "questlines": [{
+            "name": "Rest API",
+            "completition": 70,
+            "quests": [{
+                    "name": "Fetch an API",
+                    "diff": "hard",
+                    "desc": "Fetch the rest API in JS using an async function.",
+                    "link": "companyRequest.pdf"
+                },
+                {
+                    "name": "Parse Data",
+                    "diff": "hard",
+                    "desc": "Use data you retrieved in the previuos task to perform simple data analysis",
+                    "link": "companyRequest.pdf"
+                }
+            ]
         },
         {
-          "name": "Kill a rabit",
-          "diff": "normal",
-          "desc": "Just kill the fucking rabbit"
+            "name": "Banking system",
+            "completition": 30,
+            "quests": [{
+                "name": "Create login DB",
+                "diff": "medium",
+                "desc": "Create simple database using sqlite3 to make login and logout possible on the backend."
+            }]
         }
-      ]
-    },
-    {
-      "name": "Bank Log-in",
-      "completition": 30,
-      "quests": [
-        {
-          "name": "Kill yourself",
-          "diff": "easy",
-          "desc": "Just do it."
-        }
-      ]
-    }
-  ]
+    ]
 }
